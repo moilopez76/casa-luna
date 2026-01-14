@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Luna – Empanadas artisanales chiliennes à Bordeaux Por Clarita Y Moises</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #fffaf5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #e9714cf3, #bd6d55);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #e67e22;
+    }
+    .order {
+      background: #fff;
+      border-radius: 22px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+
+    /* Botón elegante */
+    a.button, button {
+      display: inline-block;
+      padding: 16px 36px;
+      margin-top: 20px;
+      background: linear-gradient(135deg, #f39c12, #e67e22);
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.05rem;
+      border-radius: 50px;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    }
+    a.button:hover, button:hover {
+      background: linear-gradient(135deg, #e67e22, #c0392b);
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    /* Estilo especial para acompañamientos */
+    .side-dish {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 25px;
+      max-width: 500px;
+      margin: 30px auto;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+    .side-dish h3 {
+      color: #e67e22;
+      margin-bottom: 15px;
+    }
+    .side-dish ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: left;
+      margin: 0;
+    }
+    .side-dish ul li {
+      margin-bottom: 8px;
+    }
+    .side-dish p.description {
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+    .side-dish p.price {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #c0392b;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #f4f4f4;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Casa Luna</h1>
+  <p>Empanadas artisanales chiliennes faites à la main, sur commande.<br>Livraison à Bordeaux et ses alentours.</p>
+</header>
+
+<section>
+  <h2>Notre philosophie</h2>
+  <div class="features">
+    <div class="card">
+      <h3>🥟 Fait maison</h3>
+      <p>Recettes traditionnelles chiliennes, pâte et garnitures préparées chaque jour.</p>
+    </div>
+    <div class="card">
+      <h3>📦 Sur commande</h3>
+      <p>Nous produisons ce qui est commandé, pour une fraîcheur maximale.</p>
+    </div>
+    <div class="card">
+      <h3>🌙 Casa Luna</h3>
+      <p>Un projet artisanal qui grandit doucement avant l’ouverture d’une boutique physique.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Notre menu</h2>
+  <div class="features">
+    <div class="card">
+      <h3>🥟 Bœuf</h3>
+      <p>Empanada chilienne au bœuf épicé, recette traditionnelle.</p>
+    </div>
+    <div class="card">
+      <h3>🍗 Poulet</h3>
+      <p>Poulet tendre, oignons et épices douces.</p>
+    </div>
+    <div class="card">
+      <h3>🧀 Fromage</h3>
+      <p>Fromage fondant, parfait à partager.</p>
+    </div>
+    <div class="card">
+      <h3>🌱 Végétarienne</h3>
+      <p>Légumes de saison, savoureux et équilibré.</p>
+    </div>
+  </div>
+</section>
+
+<section class="side-dish">
+  <h3>🥗 Accompagnements – Pebre</h3>
+  <p class="description">Pebre traditionnel (base) : 2 €<br>Oignon, tomate, coriandre, ciboule, citron avec vinaigre rouge et huile d'olive.</p>
+  <p>Options d'accompagnement au Pebre :</p>
+  <ul>
+    <li>- Blé cuit (Trigo mote) : 1 €</li>
+    <li>- Avocat : 1 €</li>
+    <li>- Graines (Linaza - Chia) : 1 €</li>
+    <li>- Fromage de chèvre avec Aji vert : 1 €</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Formats & prix</h2>
+  <div class="features">
+    <div class="card">
+      <h3>À l’unité</h3>
+      <p>3,50 € / empanada</p>
+    </div>
+    <div class="card">
+      <h3>Boîte de 6</h3>
+      <p>20 € (au choix)</p>
+    </div>
+    <div class="card">
+      <h3>Boîte de 12</h3>
+      <p>38 € (au choix)</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Commander par WhatsApp</h2>
+  <div class="order">
+    <p>Commandez simplement par message.<br>Livraison à Bordeaux et alentours.</p>
+    <a class="button" href="https://wa.me/33612345678?text=Bonjour%20Casa%20Luna%20🌙,%0A%0AJe%20souhaiterais%20passer%20une%20commande%20:%0A%0A🥟%20Empanadas%20:%0A-%20Bœuf%20:%20___%0A-%20Poulet%20:%20___%0A-%20Fromage%20:%20___%0A-%20Végétarienne%20:%20___%0A-%20Pebre%20:%20___%0A%0A📦%20Format%20:%0A☐%20À%20l’unité%0A☐%20Boîte%20de%206%0A☐%20Boîte%20de%2012%0A%0A📍%20Adresse%20de%20livraison%20:%0A🗓%20Date%20souhaitée%20:%0A⏰%20Heure%20approximative%20:%0A%0AMerci%20!" target="_blank">Commander sur WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 – Casa Luna · Empanadas artisanales chiliennes à Bordeaux
+</footer>
+
+</body>
+</html> 
