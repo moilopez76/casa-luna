@@ -23,7 +23,7 @@
       rgba(133, 80, 30, 0.3) 60%,
       transparent 90%
     ),
-    url("Images/casalunaheadertest.jpg");
+    url("Images/casalunaheader.jpg");
 
   background-size: 99% auto;
   background-position: center;
@@ -142,3 +142,4 @@
       background-size: 95%;
       font-size: 0.9rem;
     }
+
