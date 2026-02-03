@@ -6,8 +6,8 @@
     }
     
     header {
-  min-height: 90h;
-  padding: 40px;
+  min-height: 10vh;
+  padding: 20px;
   text-align: center;
   color: white;
 
@@ -101,6 +101,39 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.25);
     }
 
+    /* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  header {
+    min-height: 30vh; /* menos alto en móvil */
+    padding: 20px;
+    background-size: cover; /* mejor en móvil */
+  }
+
+  header h1 {
+    font-size: 3rem; /* reduce logo */
+    letter-spacing: 1px;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    max-width: 100%;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  .order, .side-dish {
+    padding: 20px;
+  }
+
+  a.button, button {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+}
+
     /* Estilo especial para acompañamientos */
     .side-dish {
       background: #ffffff;
@@ -142,4 +175,3 @@
       background-size: 95%;
       font-size: 0.9rem;
     }
-
