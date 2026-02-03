@@ -1,24 +1,48 @@
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       background: #fffaf5;
       color: #333;
     }
+    
     header {
-      background: linear-gradient(135deg, #e9714cf3, #bd6d55);
-      color: white;
-      padding: 70px 20px;
-      text-align: center;
-    }
+  min-height: 90h;
+  padding: 40px;
+  text-align: center;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(
+      180deg,
+      #000000a8 100%,
+      #00000065 80%,
+      rgba(133, 80, 30, 0.3) 60%,
+      transparent 90%
+    ),
+    url("Images/casalunaheadertest.jpg");
+
+  background-size: 99% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
     header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
+  font-family: 'Playfair Display', serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
     header p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       max-width: 650px;
-      margin: 0 auto;
+      margin: auto;
     }
     section {
       padding: 60px 20px;
@@ -60,7 +84,7 @@
       display: inline-block;
       padding: 16px 36px;
       margin-top: 20px;
-      background: linear-gradient(135deg, #f39c12, #e67e22);
+      background: linear-gradient(135deg, #21C063, #21C063);
       color: #fff;
       font-weight: bold;
       font-size: 1.05rem;
@@ -72,7 +96,7 @@
       transition: all 0.3s ease;
     }
     a.button:hover, button:hover {
-      background: linear-gradient(135deg, #e67e22, #c0392b);
+      background: linear-gradient(135deg, #37925d, #21C063);
       transform: translateY(-3px) scale(1.05);
       box-shadow: 0 10px 25px rgba(0,0,0,0.25);
     }
@@ -94,7 +118,7 @@
     .side-dish ul {
       list-style: none;
       padding-left: 0;
-      text-align: left;
+      text-align: center;
       margin: 0;
     }
     .side-dish ul li {
@@ -115,5 +139,6 @@
       text-align: center;
       padding: 30px;
       background: #f4f4f4;
+      background-size: 95%;
       font-size: 0.9rem;
     }
